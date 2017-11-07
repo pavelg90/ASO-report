@@ -86,8 +86,8 @@ def waitUntilVisible(driver, xpath, name=False):
 	return False
 
 def credentials_and_submit(driver):
-	usernameText ="Lonny@investing.com"
-	passwordText = "56tyghbn"
+	usernameText ="***************"
+	passwordText = "*************"
 
 	driver.find_element_by_xpath('//*[@id="login-button"]/button').click()
 	
